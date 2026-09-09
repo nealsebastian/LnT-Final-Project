@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "P01 - Enterprise E-Commerce Catalog & Order Management System Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node -e \"require('./utils/seedData')()\"",
+    "test:api": "node scripts/test-api.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "rest-api",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "rbac"
+  ],
+  "author": "P01 Project Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "docx": "^9.7.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.3"
+  }
+}
